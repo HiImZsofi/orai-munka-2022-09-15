@@ -1,3 +1,6 @@
+export function hozzad()
+export function atlag()
+
 const list = [ ];
 
 function hozzaad(x){
