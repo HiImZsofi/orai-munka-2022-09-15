@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "index.js",
+  "main": "./src/test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/HiImZsofi/orai-munka-2022-09-15/issues"
   },
-  "homepage": "https://github.com/HiImZsofi/orai-munka-2022-09-15#readme"
+  "homepage": "https://github.com/HiImZsofi/orai-munka-2022-09-15#readme",
+  "dependencies": {
+    "node": "^18.9.0"
+  }
 }

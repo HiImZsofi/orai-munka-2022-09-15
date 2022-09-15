@@ -1,9 +1,8 @@
-export function hozzad()
-export function atlag()
 
-const list = [ ];
 
-function hozzaad(x){
+const list = [];
+
+export function hozzaad(x){
     if(x < 0){
         console.log("Hibás adat")
     }
@@ -12,6 +11,6 @@ function hozzaad(x){
     }
 }
 
-function atlag(){
+export function atlag(){
     const average = list => list.reduce((a,b) => a + b, 0) / list.length
 }
