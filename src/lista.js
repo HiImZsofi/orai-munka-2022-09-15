@@ -13,4 +13,5 @@ export function hozzaad(x){
 
 export function atlag(){
     const average = list => list.reduce((a,b) => a + b, 0) / list.length
+    return average
 }
